@@ -1,0 +1,39 @@
+  <!DOCTYPE html>
+  <html lang="ru">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>lightbox2</title>
+      <link rel="stylesheet" href="./style/style.css">
+  </head>
+
+  <body>
+      <div class="container">
+          <h1>Изображения</h1>
+          <div id="gallery"></div>
+      </div>   
+
+      <template id="card">
+          <figure id="figure">
+              <p><img class="img" src="" alt="" /></p>
+              <figcaption class="title"></figcaption>
+          </figure>
+      </template>
+
+      <template id="popup">
+        <div class="darkbox"></div>
+        <figure id="imgBox" class="fig">
+            <img class="imgPopup" src="" alt="" />
+            <figcaption class="imgPopup_title"></figcaption>
+        </figure>
+      </template>
+        
+      <!-- тест -->
+
+      <script src="./scripts/script.js"></script>
+
+  </body>
+
+  </html>
